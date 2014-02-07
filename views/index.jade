@@ -1,0 +1,11 @@
+extends layout
+block content
+    h1 Activities
+    if activities.length
+        ul
+            each activity in activities
+                li= activity
+    else
+        p No activity yet.
+        p Visit http://localhost:3000/activity?activity=test to add an activity.
+        p Change activity query to add a different activity.
