@@ -7,7 +7,7 @@ Node.js ile aktivite akış örneği
 + `node app.js` komutunu çalıştırın.
 
 ##Çalıştırmak için:
-+ aktiviteleri görmek için tarayıcınızdan `http://localhost:3000/activities` adresine girin.
++ aktiviteleri görmek için tarayıcınızdan `http://localhost:3000` adresine girin.
 + yeni aktivite eklemek için tarayıcınızdan `http://localhost:3000/activity?activity=deneme` adresine girin.
 
 ##Örneğin can alıcı noktası:
